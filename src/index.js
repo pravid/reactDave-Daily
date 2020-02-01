@@ -145,6 +145,6 @@ ReactDom.render(
 );
 
 ReactDom.render(
-  <GateOpen isOpen={false} />,
+  <GateOpen isOpen={true} />,
   document.querySelector("#gateStatus")
 );
